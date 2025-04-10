@@ -137,7 +137,7 @@
 ## Структура проекта
 
 ```
-youcan-profdesign/
+Final_PDF_Dossier/
 ├── llm_service/              # Сервис для работы с Ollama и LLM (Dockerfile, entrypoint.sh)
 ├── telegram_bot/             # Исходный код Telegram-бота (main.py, pdf_processor.py, requirements.txt и др.)
 ├── downloads/                # Каталог для временного хранения файлов (можно добавить .gitkeep)
