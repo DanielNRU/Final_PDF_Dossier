@@ -1,0 +1,24 @@
+services:
+  llm_service:
+    build:
+      context: ./llm_service   # Путь к Dockerfile ollama
+    environment:
+      - OLLAMA_HOST=http://0.0.0.0:11434
+    ports:
+      - "11434:11434"
+    # Разрешаем использовать все доступные GPU
+    gpus: all
+    restart: always
+
+  telegram_bot:
+    build:
+      context: ./telegram_bot
+    env_file:
+      - .env
+    environment:
+      - OLLAMA_BASE_URL=http://llm_service:11434
+    depends_on:
+      - llm_service
+    volumes:
+      - ./downloads:/app/downloads
+    restart: always

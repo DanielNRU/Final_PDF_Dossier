@@ -1,0 +1,8 @@
+python-telegram-bot>=20.0
+pdfplumber
+reportlab
+langchain_ollama
+emojipy
+transformers
+torch
+six
