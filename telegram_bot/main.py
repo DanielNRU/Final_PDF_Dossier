@@ -63,7 +63,7 @@ async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
         logger.exception("Ошибка при скачивании файла")
         await update.message.reply_text("Произошла ошибка при скачивании файла.")
         return
-    await update.message.reply_text("Обрабатываю файл, пожалуйста, подожди...")
+    await update.message.reply_text("Обрабатываю файл, пожалуйста, подождите...")
     try:
         pdf_data = parse_and_cache_pdf(input_path)
         context.user_data['pdf_data'] = pdf_data
