@@ -6,9 +6,14 @@
 
 ---
 
-![YOU CAN Logo](https://youcan.by/_next/static/media/logo.8382e3f2.svg)
-
-**Заказчик:** [YOU CAN](https://youcan.by) — белорусский социальный стартап, помогающий подросткам, в особенности сиротам, найти своё призвание и реализовать свои способности через профдизайн.
+<table>
+<tr>
+<td width="120"><img src="https://youcan.by/_next/static/media/logo.8382e3f2.svg" width="100" alt="YOU CAN Logo"></td>
+<td>
+<b>Заказчик:</b> <a href="https://youcan.by">YOU CAN</a> — белорусский социальный стартап, помогающий подросткам, в особенности сиротам, найти своё призвание и реализовать свои способности через профдизайн.
+</td>
+</tr>
+</table>
 
 ---
 
