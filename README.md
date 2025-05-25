@@ -117,7 +117,7 @@ Telegram Final PDF Dossier Bot предназначен для автомати�
 
 ---
 
-![Telegram Bot интерфейс](gradio.png)
+![Telegram Bot интерфейс](telegram.png)
 
 ## 🛠 Настройка
 
