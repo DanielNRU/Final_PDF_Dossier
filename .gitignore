@@ -2,3 +2,4 @@ _env
 /YouCan
 telegram_bot_avatar.png
 telegram_bot/logo.png
+.DS_Store
